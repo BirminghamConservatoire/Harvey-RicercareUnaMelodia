@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 259.0, 394.0, 825.0, 210.0 ],
+		"rect" : [ 169.0, 104.0, 824.0, 209.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,40 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"color" : [ 0.007843137254902, 0.850980392156863, 0.047058823529412, 1.0 ],
+					"elementcolor" : [ 0.462745098039216, 0.258823529411765, 0.258823529411765, 1.0 ],
+					"id" : "obj-12",
+					"local" : 1,
+					"maxclass" : "ezdac~",
+					"numinlets" : 2,
+					"numoutlets" : 0,
+					"patching_rect" : [ 500.0, 80.0, 44.0, 44.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 773.5, 157.0, 44.0, 44.0 ],
+					"prototypename" : "helpfile"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Monaco",
+					"fontsize" : 11.0,
+					"id" : "obj-9",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 500.0, 61.0, 94.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 716.5, 169.0, 55.0, 20.0 ],
+					"style" : "default",
+					"text" : "DSP on!",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Monaco",
 					"fontsize" : 24.0,
@@ -327,7 +361,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 532.0, 100.0, 435.0, 750.0 ],
+						"rect" : [ 357.0, 120.0, 864.0, 750.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -356,6 +390,42 @@
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Monaco",
+									"fontsize" : 12.0,
+									"id" : "obj-3",
+									"linecount" : 2,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 5.0, 238.0, 502.0, 36.0 ],
+									"presentation" : 1,
+									"presentation_linecount" : 2,
+									"presentation_rect" : [ 6.0, 226.0, 849.0, 36.0 ],
+									"text" : "The speaker icon in the bottom right turns all audio on/off for the patch. Make sure this is on (green) before the performance starts! ",
+									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontface" : 1,
+									"fontname" : "Monaco",
+									"fontsize" : 15.0,
+									"id" : "obj-6",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 5.0, 216.0, 126.0, 25.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 6.0, 199.0, 849.0, 25.0 ],
+									"text" : "DSP On!",
+									"textcolor" : [ 0.796078431372549, 0.796078431372549, 0.796078431372549, 1.0 ]
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-50",
 									"maxclass" : "newobj",
@@ -403,15 +473,17 @@
 							}
 , 							{
 								"box" : 								{
+									"fontname" : "Monaco",
+									"fontsize" : 12.0,
 									"id" : "obj-27",
 									"linecount" : 4,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 30.0, 114.0, 423.0, 60.0 ],
+									"patching_rect" : [ 30.0, 114.0, 577.0, 66.0 ],
 									"presentation" : 1,
-									"presentation_linecount" : 4,
-									"presentation_rect" : [ 6.0, 469.0, 426.0, 60.0 ],
+									"presentation_linecount" : 3,
+									"presentation_rect" : [ 6.0, 495.0, 849.0, 51.0 ],
 									"text" : "Because of the nature of the effects, any rehearsal of the music after Cue 2 will have to start from Cue 2 if the electronics are needed (at least for this patch!). Jumping in on sections between Cue 1 and Cue 2 should be possible, just be aware that it will take a few seconds for the delays to catch up.",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -421,14 +493,15 @@
 								"box" : 								{
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : 1,
-									"fontsize" : 16.0,
+									"fontname" : "Monaco",
+									"fontsize" : 15.0,
 									"id" : "obj-26",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 85.0, 36.0, 207.0, 24.0 ],
+									"patching_rect" : [ 85.0, 36.0, 225.0, 25.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 6.0, 443.0, 423.0, 24.0 ],
+									"presentation_rect" : [ 6.0, 468.0, 849.0, 25.0 ],
 									"text" : "Rehearsal Note",
 									"textcolor" : [ 0.796078431372549, 0.796078431372549, 0.796078431372549, 1.0 ]
 								}
@@ -436,15 +509,17 @@
 							}
 , 							{
 								"box" : 								{
+									"fontname" : "Monaco",
+									"fontsize" : 12.0,
 									"id" : "obj-25",
 									"linecount" : 14,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 30.0, 114.0, 426.0, 194.0 ],
+									"patching_rect" : [ 30.0, 114.0, 513.0, 216.0 ],
 									"presentation" : 1,
-									"presentation_linecount" : 14,
-									"presentation_rect" : [ 6.0, 244.0, 427.0, 194.0 ],
+									"presentation_linecount" : 11,
+									"presentation_rect" : [ 6.0, 293.0, 849.0, 171.0 ],
 									"text" : "These trigger Cue 1, Cue 2 and stop any active DSP respectively. Cue 1 should be triggered at the beggining of the performance, ideally timed with the soloists first note.\n\nThe timing of Cue 2 is crucial! The cue starts after a solo instrument section, and should be timed as exactly as possible with the soloists first 1/2 note after the instruction 'Switch both TR's on'. In the faeber trumpet score, this note is marked with the word 'in' on page 6, with the tempo instruction to return to crotchet == 60. \n\nBoth triggers work best with a visual cue from the soloist, or mapped to a MIDI footpedal that the soloist can trigger. \n\nSTOP will stop any active DSP and delay line playback. ",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -454,14 +529,15 @@
 								"box" : 								{
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : 1,
-									"fontsize" : 16.0,
+									"fontname" : "Monaco",
+									"fontsize" : 15.0,
 									"id" : "obj-24",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 30.0, 44.0, 207.0, 24.0 ],
+									"patching_rect" : [ 30.0, 44.0, 231.0, 25.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 6.0, 218.0, 423.0, 24.0 ],
+									"presentation_rect" : [ 6.0, 266.0, 849.0, 25.0 ],
 									"text" : "1, 2 & STOP buttons",
 									"textcolor" : [ 0.796078431372549, 0.796078431372549, 0.796078431372549, 1.0 ]
 								}
@@ -478,16 +554,19 @@
 									"bgfillcolor_color2" : [ 0.686274509803922, 0.686274509803922, 0.686274509803922, 1.0 ],
 									"bgfillcolor_proportion" : 0.5,
 									"bgfillcolor_type" : "gradient",
+									"fontname" : "Monaco",
+									"fontsize" : 11.0,
 									"gradient" : 1,
 									"id" : "obj-44",
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 615.0, 263.0, 105.0, 22.0 ],
+									"patching_rect" : [ 615.0, 263.0, 108.0, 22.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 66.0, 113.0, 105.0, 22.0 ],
-									"text" : "open VST window"
+									"presentation_rect" : [ 83.0, 105.5, 108.0, 22.0 ],
+									"text" : "open VST window",
+									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 
 							}
@@ -502,30 +581,35 @@
 									"bgfillcolor_color2" : [ 0.686274509803922, 0.686274509803922, 0.686274509803922, 1.0 ],
 									"bgfillcolor_proportion" : 0.5,
 									"bgfillcolor_type" : "gradient",
+									"fontname" : "Monaco",
+									"fontsize" : 11.0,
 									"gradient" : 1,
 									"id" : "obj-37",
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 539.0, 263.0, 58.0, 22.0 ],
+									"patching_rect" : [ 539.0, 263.0, 61.0, 22.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 6.0, 113.0, 58.0, 22.0 ],
-									"text" : "load VST"
+									"presentation_rect" : [ 15.0, 105.5, 61.0, 22.0 ],
+									"text" : "load VST",
+									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 
 							}
 , 							{
 								"box" : 								{
+									"fontname" : "Monaco",
+									"fontsize" : 12.0,
 									"id" : "obj-22",
 									"linecount" : 5,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 30.0, 107.0, 423.0, 74.0 ],
+									"patching_rect" : [ 30.0, 107.0, 534.0, 81.0 ],
 									"presentation" : 1,
-									"presentation_linecount" : 5,
-									"presentation_rect" : [ 6.0, 138.0, 426.0, 74.0 ],
+									"presentation_linecount" : 4,
+									"presentation_rect" : [ 6.0, 130.5, 849.0, 66.0 ],
 									"text" : "The score specifies a .9s reverb on the microphone input to the first delay line. To acheive this, first press (load VST) to choose a suitable reverb VST, then press (open VST window) to open up the plugins user interface to configure it for performance. The patch will work without a reverb VST as well, should this be prefereable in wetter acoustics. ",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -535,31 +619,33 @@
 								"box" : 								{
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : 1,
-									"fontsize" : 16.0,
+									"fontname" : "Monaco",
+									"fontsize" : 15.0,
 									"id" : "obj-23",
-									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 16.0, 18.0, 195.0, 42.0 ],
+									"patching_rect" : [ 16.0, 18.0, 388.0, 25.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 6.0, 112.0, 423.0, 24.0 ],
-									"text" : "                                     (<< press me)",
+									"presentation_rect" : [ 6.0, 104.0, 849.0, 25.0 ],
+									"text" : "                     (<< press me)",
 									"textcolor" : [ 0.796078431372549, 0.796078431372549, 0.796078431372549, 1.0 ]
 								}
 
 							}
 , 							{
 								"box" : 								{
+									"fontname" : "Monaco",
+									"fontsize" : 12.0,
 									"id" : "obj-18",
 									"linecount" : 5,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 30.0, 84.0, 423.0, 74.0 ],
+									"patching_rect" : [ 30.0, 84.0, 583.0, 81.0 ],
 									"presentation" : 1,
-									"presentation_linecount" : 5,
-									"presentation_rect" : [ 6.0, 34.0, 423.0, 74.0 ],
+									"presentation_linecount" : 4,
+									"presentation_rect" : [ 6.0, 34.0, 849.0, 66.0 ],
 									"text" : "By default, the patch uses the first input channel for the soloist's microphone, a clip on or dynamic mic will work best to avoid gradual feedback through the delay lines. The defaults for a quadrophonic setup map delay line channels 1-4 to their respective [dac~] outputs, default stereo mapping sends delay channels 1&3 to [dac~ 1], and 2&4 to [dac~ 2] - as outlined in the score. ",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -588,16 +674,19 @@
 									"bgfillcolor_color2" : [ 0.686274509803922, 0.686274509803922, 0.686274509803922, 1.0 ],
 									"bgfillcolor_proportion" : 0.5,
 									"bgfillcolor_type" : "gradient",
+									"fontname" : "Monaco",
+									"fontsize" : 11.0,
 									"gradient" : 1,
 									"id" : "obj-47",
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 547.0, 165.0, 54.0, 22.0 ],
+									"patching_rect" : [ 547.0, 165.0, 68.0, 22.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 6.0, 10.0, 54.0, 22.0 ],
-									"text" : "setup i/o"
+									"presentation_rect" : [ 15.0, 10.0, 68.0, 22.0 ],
+									"text" : "setup i/o",
+									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 
 							}
@@ -614,15 +703,17 @@
 							}
 , 							{
 								"box" : 								{
+									"fontname" : "Monaco",
+									"fontsize" : 12.0,
 									"id" : "obj-14",
 									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 15.0, 141.0, 423.0, 33.0 ],
+									"patching_rect" : [ 15.0, 141.0, 466.0, 36.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 2,
-									"presentation_rect" : [ 6.0, 705.0, 423.0, 33.0 ],
+									"presentation_rect" : [ 6.0, 710.0, 849.0, 36.0 ],
 									"text" : "The Cue 1, Cue 2 and STOP buttons can also be mapped to a midi controller with the 'Assign MIDI map' feature in Max/MSP.",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -632,15 +723,16 @@
 								"box" : 								{
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : 1,
-									"fontsize" : 16.0,
+									"fontname" : "Monaco",
+									"fontsize" : 15.0,
 									"id" : "obj-13",
 									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 70.0, 27.0, 121.0, 42.0 ],
+									"patching_rect" : [ 70.0, 27.0, 117.0, 44.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 6.0, 683.0, 423.0, 24.0 ],
+									"presentation_rect" : [ 6.0, 683.0, 849.0, 25.0 ],
 									"text" : "MIDI Mappings [X]",
 									"textcolor" : [ 0.796078431372549, 0.796078431372549, 0.796078431372549, 1.0 ]
 								}
@@ -648,15 +740,17 @@
 							}
 , 							{
 								"box" : 								{
+									"fontname" : "Monaco",
+									"fontsize" : 12.0,
 									"id" : "obj-11",
 									"linecount" : 3,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 45.0, 95.0, 423.0, 47.0 ],
+									"patching_rect" : [ 45.0, 95.0, 438.0, 51.0 ],
 									"presentation" : 1,
-									"presentation_linecount" : 3,
-									"presentation_rect" : [ 6.0, 629.0, 423.0, 47.0 ],
+									"presentation_linecount" : 2,
+									"presentation_rect" : [ 6.0, 643.0, 849.0, 36.0 ],
 									"text" : "If enabled, the two cues and stop button can be controlled from the computer keyboard. Cue 1 is mapped to the number 1 key, Cue to to number 2, and stop to the space bar. ",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -666,14 +760,15 @@
 								"box" : 								{
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : 1,
-									"fontsize" : 16.0,
+									"fontname" : "Monaco",
+									"fontsize" : 15.0,
 									"id" : "obj-12",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 45.0, 36.0, 208.0, 24.0 ],
+									"patching_rect" : [ 45.0, 36.0, 233.0, 25.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 6.0, 608.0, 423.0, 24.0 ],
+									"presentation_rect" : [ 6.0, 617.0, 849.0, 25.0 ],
 									"text" : "Enable Hotkeys [X]",
 									"textcolor" : [ 0.796078431372549, 0.796078431372549, 0.796078431372549, 1.0 ]
 								}
@@ -681,15 +776,17 @@
 							}
 , 							{
 								"box" : 								{
+									"fontname" : "Monaco",
+									"fontsize" : 12.0,
 									"id" : "obj-10",
 									"linecount" : 3,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 30.0, 95.0, 423.0, 47.0 ],
+									"patching_rect" : [ 30.0, 95.0, 560.0, 51.0 ],
 									"presentation" : 1,
-									"presentation_linecount" : 3,
-									"presentation_rect" : [ 6.0, 554.0, 423.0, 47.0 ],
+									"presentation_linecount" : 2,
+									"presentation_rect" : [ 6.0, 577.0, 849.0, 36.0 ],
 									"text" : "If enabled, the patch uses recordings for the two sections of the piece that have electronics running. This can be used to practice listening through the score and getting a sense of how the sounds evolve afer each cue. ",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -699,14 +796,15 @@
 								"box" : 								{
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : 1,
-									"fontsize" : 16.0,
+									"fontname" : "Monaco",
+									"fontsize" : 15.0,
 									"id" : "obj-8",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 15.0, 29.0, 207.0, 24.0 ],
+									"patching_rect" : [ 15.0, 29.0, 235.0, 25.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 6.0, 533.0, 423.0, 24.0 ],
+									"presentation_rect" : [ 6.0, 550.0, 849.0, 25.0 ],
 									"text" : "Practice Mode [X]",
 									"textcolor" : [ 0.796078431372549, 0.796078431372549, 0.796078431372549, 1.0 ]
 								}
@@ -765,15 +863,16 @@
 								"box" : 								{
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : 1,
-									"fontsize" : 16.0,
+									"fontname" : "Monaco",
+									"fontsize" : 15.0,
 									"id" : "obj-17",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 16.0, 18.0, 195.0, 24.0 ],
+									"patching_rect" : [ 16.0, 18.0, 277.0, 25.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 6.0, 8.0, 423.0, 24.0 ],
-									"text" : "            (<< press me)",
+									"presentation_rect" : [ 6.0, 8.0, 849.0, 25.0 ],
+									"text" : "         (<< press me)",
 									"textcolor" : [ 0.796078431372549, 0.796078431372549, 0.796078431372549, 1.0 ]
 								}
 
@@ -790,8 +889,9 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 750.0, 240.0, 128.0, 128.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 0.0, 0.0, 435.0, 750.0 ],
-									"proportion" : 0.5
+									"presentation_rect" : [ 0.0, 0.0, 864.0, 750.0 ],
+									"proportion" : 0.5,
+									"rounded" : 0
 								}
 
 							}
