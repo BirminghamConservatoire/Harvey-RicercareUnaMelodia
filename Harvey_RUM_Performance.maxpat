@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 169.0, 104.0, 840.0, 210.0 ],
+		"rect" : [ 86.0, 66.0, 840.0, 210.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -628,7 +628,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 30.0, 114.0, 520.0, 216.0 ],
+									"patching_rect" : [ 30.0, 114.0, 527.0, 216.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 11,
 									"presentation_rect" : [ 6.0, 293.0, 849.0, 171.0 ],
@@ -694,7 +694,7 @@
 									"patching_rect" : [ 30.0, 107.0, 534.0, 81.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 3,
-									"presentation_rect" : [ 6.0, 130.5, 851.0, 51.0 ],
+									"presentation_rect" : [ 6.0, 130.5, 858.0, 51.0 ],
 									"text" : "The score specifies a .9s reverb on the microphone input to the first delay line. To acheive this, first press (load VST) to choose a suitable reverb VST, then press (open VST window) to open up the plugins user interface to configure it for performance. The patch will work without a reverb VST as well, should this be prefereable in wetter acoustics. ",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -728,7 +728,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 30.0, 84.0, 585.0, 81.0 ],
+									"patching_rect" : [ 30.0, 84.0, 592.0, 81.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 4,
 									"presentation_rect" : [ 6.0, 34.0, 849.0, 66.0 ],
@@ -3832,14 +3832,14 @@
 										"subtype" : "Undefined",
 										"embed" : 1,
 										"snapshot" : 										{
-											"pluginname" : "ValhallaSupermassive.vstinfo",
-											"plugindisplayname" : "ValhallaSupermassive",
+											"pluginname" : "ValhallaVintageVerb.vst3info",
+											"plugindisplayname" : "ValhallaVintageVerb",
 											"pluginsavedname" : "",
-											"pluginsaveduniqueid" : 0,
+											"pluginsaveduniqueid" : 608255483,
 											"version" : 1,
 											"isbank" : 0,
 											"isbase64" : 1,
-											"blob" : "518.CMlaKA....fQPMDZ....ALWSgMG.BT......A........................................DfxVMjLgDb....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOVEFanEFarE1T0AWYx0VXyMWZ1UFHvwVcmklaVUlbyk1at0iHx3RMt.iHf.mbkMWYz4TXsUVOhPTYlEVcrQmHfzTZ30iHv3RMh.BQkwVX4MUdtMVOh.iKxTiHfPTYrEVdN8Fck0iHv3hL3TyMwPiL4fCM3XyMvjiMh.BQkwVX48USy0iHv3RMh.BQkwVX4cUXxAWOh.iKvHBHCwVYgIWOhDiKvHBHFUVYjIVXisVOh.iK0HBHDUlaykFc40iHv3BLh.xUoQFcn0iHw3BLh.BSuc2P0QWOh.iKvHBHHk1YnMTcz0iHw3BLh.RSuQlTgQWY8HBLtHyMyfyLzDCL4LCL1LyL0PiHfzzajQTYvQGZ8HBLtTiHfzzajUVOh.iKvPSL1XiM1XyM4.CNzLCLwHBHRU1bkImckQVL8HBLt.iHfHUYyUlb1UFYxziHv3BLh.hTkMWYxYWYjMSOh.iKvHBHRU1bkImckQFM8HBLt.iHfzVZ3wzaisVOh.iHfTWZWkFYzgVOhfiLvHBH0kFRkk1YnQWOhPyL0HxK9.."
+											"blob" : "1071.VMjLgXBA...OVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9bCM33hUMczXWEjKt3hYt3hKt.kKt3hKt3BS5gEcyQjKtfjKvXTR5AkaA4hKtfjYisVUwvjKL4hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKBYWZUMTRSgjLG4hKtXWdOMCLFElYXcUV30zUZUGMV8DZDk1R1gjPHsFMwfUcQYkVzMlUOgFUEUkQvHjSncSZOYlcoU0Y2YjVmcmQgcVVUoEcQcEVsUEaUsVRsgkYtbTXvLlUZQWVUkEdMckV0QiUOgFSosjcyHDSn4hPhgWUwH1ZQ01TmAiUYgCRBE0ZYYEVvbmQiglKRM0amc0Sn4RZKoGVS4DMpMkSzn1PNMiK40DMtjWS2gjPHAURWkEQUYTXms1UOglKosjcHIDRDUULXc1ZW8DZtj1R3Q0PMQiZS4DMpMUS3wzTLECRC4jdHIDRSsFajsFLogzcyHDSn4hTPoWTWgUZyY0Sn4RZKACRBgjPEEiX4ACUiIWTW8DZtj1RwfTdLYGSC4jLXMjSxf0PNkGQCwDLHIDRBUTLhk2YvDVLUwlX3fjPLQGTC0jdhMDS2QzPLACSS0TLHMESw.UZHYlYToUamECUtUkQgwFLogjcyHDSn4hPR81XFokQIcUV2ASZHY2LR0DZtHUTmkzQgQSTToEaYY0X4sVLgQGLogzcyHDSn4hPScVTWkEQqwVVrUkLh8FNrEFNHIESz4RZHYld5ElZIUEV5UkUOglKosjcHIDRMgiQYQTUFIldmY0Sn4RZKYGRBgDRqESVt0DUioGLogjcyHUSz3xTMkmYC4DLpkGSwHVdLIiKo0DZtHzT0MlLPASTW8DZtj1R1gjPHMDNFEVcIc0T0EkUYgCRBwDcLkGS4wTdLkGSC0TdHkVSx.0PMYmYogjYHUUVwTEahgFL5ElZUY0Sn4RZKYGTSwTLXkVSwfUdMQiKC4jdLMDS2gjPHM2ZFQFS3DCVwASZHYGRBgDLqESUuEkQi4FLogDMLMUSn4hTi81YTk0aiYjV5ASZHoGSS0DZ2f1St3hKt3hKt3hKt3hKJUELPUTPqI1aYcEV5UkQQcVTWgkKDAkKBs1QhcVSxHlKDAkKC4BTG4hKt3hKt3hKt3FUUMTUDQEdqw1XmE0UYQTQFM1YAwyKIMzasA2atUlaz4COuX0TTMCTrU2Yo41TzEFck4C."
 										}
 ,
 										"snapshotlist" : 										{
@@ -3849,19 +3849,19 @@
 													"version" : 2,
 													"minorversion" : 0,
 													"name" : "ValhallaSupermassive",
-													"origin" : "ValhallaSupermassive.vstinfo",
-													"type" : "VST",
+													"origin" : "ValhallaVintageVerb.vst3info",
+													"type" : "VST3",
 													"subtype" : "AudioEffect",
 													"embed" : 1,
 													"snapshot" : 													{
-														"pluginname" : "ValhallaSupermassive.vstinfo",
-														"plugindisplayname" : "ValhallaSupermassive",
+														"pluginname" : "ValhallaVintageVerb.vst3info",
+														"plugindisplayname" : "ValhallaVintageVerb",
 														"pluginsavedname" : "",
-														"pluginsaveduniqueid" : 0,
+														"pluginsaveduniqueid" : 608255483,
 														"version" : 1,
 														"isbank" : 0,
 														"isbase64" : 1,
-														"blob" : "518.CMlaKA....fQPMDZ....ALWSgMG.BT......A........................................DfxVMjLgDb....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOVEFanEFarE1T0AWYx0VXyMWZ1UFHvwVcmklaVUlbyk1at0iHx3RMt.iHf.mbkMWYz4TXsUVOhPTYlEVcrQmHfzTZ30iHv3RMh.BQkwVX4MUdtMVOh.iKxTiHfPTYrEVdN8Fck0iHv3hL3TyMwPiL4fCM3XyMvjiMh.BQkwVX48USy0iHv3RMh.BQkwVX4cUXxAWOh.iKvHBHCwVYgIWOhDiKvHBHFUVYjIVXisVOh.iK0HBHDUlaykFc40iHv3BLh.xUoQFcn0iHw3BLh.BSuc2P0QWOh.iKvHBHHk1YnMTcz0iHw3BLh.RSuQlTgQWY8HBLtHyMyfyLzDCL4LCL1LyL0PiHfzzajQTYvQGZ8HBLtTiHfzzajUVOh.iKvPSL1XiM1XyM4.CNzLCLwHBHRU1bkImckQVL8HBLt.iHfHUYyUlb1UFYxziHv3BLh.hTkMWYxYWYjMSOh.iKvHBHRU1bkImckQFM8HBLt.iHfzVZ3wzaisVOh.iHfTWZWkFYzgVOhfiLvHBH0kFRkk1YnQWOhPyL0HxK9.."
+														"blob" : "1071.VMjLgXBA...OVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9bCM33hUMczXWEjKt3hYt3hKt.kKt3hKt3BS5gEcyQjKtfjKvXTR5AkaA4hKtfjYisVUwvjKL4hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKBYWZUMTRSgjLG4hKtXWdOMCLFElYXcUV30zUZUGMV8DZDk1R1gjPHsFMwfUcQYkVzMlUOgFUEUkQvHjSncSZOYlcoU0Y2YjVmcmQgcVVUoEcQcEVsUEaUsVRsgkYtbTXvLlUZQWVUkEdMckV0QiUOgFSosjcyHDSn4hPhgWUwH1ZQ01TmAiUYgCRBE0ZYYEVvbmQiglKRM0amc0Sn4RZKoGVS4DMpMkSzn1PNMiK40DMtjWS2gjPHAURWkEQUYTXms1UOglKosjcHIDRDUULXc1ZW8DZtj1R3Q0PMQiZS4DMpMUS3wzTLECRC4jdHIDRSsFajsFLogzcyHDSn4hTPoWTWgUZyY0Sn4RZKACRBgjPEEiX4ACUiIWTW8DZtj1RwfTdLYGSC4jLXMjSxf0PNkGQCwDLHIDRBUTLhk2YvDVLUwlX3fjPLQGTC0jdhMDS2QzPLACSS0TLHMESw.UZHYlYToUamECUtUkQgwFLogjcyHDSn4hPR81XFokQIcUV2ASZHY2LR0DZtHUTmkzQgQSTToEaYY0X4sVLgQGLogzcyHDSn4hPScVTWkEQqwVVrUkLh8FNrEFNHIESz4RZHYld5ElZIUEV5UkUOglKosjcHIDRMgiQYQTUFIldmY0Sn4RZKYGRBgDRqESVt0DUioGLogjcyHUSz3xTMkmYC4DLpkGSwHVdLIiKo0DZtHzT0MlLPASTW8DZtj1R1gjPHMDNFEVcIc0T0EkUYgCRBwDcLkGS4wTdLkGSC0TdHkVSx.0PMYmYogjYHUUVwTEahgFL5ElZUY0Sn4RZKYGTSwTLXkVSwfUdMQiKC4jdLMDS2gjPHM2ZFQFS3DCVwASZHYGRBgDLqESUuEkQi4FLogDMLMUSn4hTi81YTk0aiYjV5ASZHoGSS0DZ2f1St3hKt3hKt3hKt3hKJUELPUTPqI1aYcEV5UkQQcVTWgkKDAkKBs1QhcVSxHlKDAkKC4BTG4hKt3hKt3hKt3FUUMTUDQEdqw1XmE0UYQTQFM1YAwyKIMzasA2atUlaz4COuX0TTMCTrU2Yo41TzEFck4C."
 													}
 ,
 													"fileref" : 													{
@@ -3869,7 +3869,7 @@
 														"filename" : "ValhallaSupermassive.maxsnap",
 														"filepath" : "~/Documents/Max 8/Snapshots",
 														"filepos" : -1,
-														"snapshotfileid" : "67b0a1621f12bbea6f241bfae9636fe0"
+														"snapshotfileid" : "6921dd3912fa015bf22b11e5e7ccb5d1"
 													}
 
 												}
@@ -4424,7 +4424,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 59.0, 119.0, 264.0, 227.0 ],
+						"rect" : [ 59.0, 119.0, 264.0, 225.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -4861,6 +4861,23 @@
 									"presentation" : 1,
 									"presentation_rect" : [ 11.0, 56.0, 244.0, 161.0 ],
 									"proportion" : 0.5
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"angle" : 270.0,
+									"bgcolor" : [ 0.352941176470588, 0.352941176470588, 0.352941176470588, 1.0 ],
+									"id" : "obj-1",
+									"maxclass" : "panel",
+									"mode" : 0,
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ -1.0, 47.0, 228.0, 47.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 0.0, 0.0, 268.0, 226.0 ],
+									"proportion" : 0.5,
+									"rounded" : 0
 								}
 
 							}
