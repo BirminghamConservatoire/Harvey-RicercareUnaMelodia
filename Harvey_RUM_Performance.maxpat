@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 148.0, 66.0, 1341.0, 899.0 ],
+		"rect" : [ 148.0, 66.0, 796.0, 361.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,78 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-96",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 780.5, 366.0, 161.0, 22.0 ],
+					"text" : "offcolor 0.129 0.129 0.129 1."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-95",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 780.5, 328.0, 161.0, 22.0 ],
+					"text" : "offcolor 0.314 0.314 0.314 1."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-92",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 392.5, 228.0, 161.0, 22.0 ],
+					"text" : "bgcolor 0.761 0.761 0.761 1."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-91",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 606.0, 370.5, 161.0, 22.0 ],
+					"text" : "bgcolor 0.369 0.043 0.043 1."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-89",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 606.0, 339.0, 161.0, 22.0 ],
+					"text" : "bgcolor 0.761 0.761 0.761 1."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-86",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 3,
+					"outlettype" : [ "bang", "bang", "" ],
+					"patching_rect" : [ 533.0, 380.0, 44.0, 22.0 ],
+					"text" : "sel 1 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-53",
 					"maxclass" : "toggle",
 					"numinlets" : 1,
@@ -57,7 +129,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 545.5, 304.0, 70.0, 22.0 ],
+					"patching_rect" : [ 545.5, 285.0, 70.0, 22.0 ],
 					"text" : "loadmess 1"
 				}
 
@@ -72,17 +144,17 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 34.5, 298.0, 102.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 86.5, 321.0, 109.0, 20.0 ],
+					"presentation_rect" : [ 100.346153765916824, 319.0, 109.0, 20.0 ],
 					"style" : "default",
-					"text" : "mic bypass >>>",
+					"text" : "mic mute >>>",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.76078431372549, 0.76078431372549, 0.76078431372549, 1.0 ],
-					"checkedcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"bgcolor" : [ 0.761, 0.761, 0.761, 1.0 ],
+					"checkedcolor" : [ 1.0, 0.203921568627451, 0.203921568627451, 1.0 ],
 					"id" : "obj-28",
 					"maxclass" : "toggle",
 					"numinlets" : 1,
@@ -104,7 +176,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 475.0, 304.0, 67.0, 22.0 ],
+					"patching_rect" : [ 475.0, 285.0, 67.0, 22.0 ],
 					"text" : "r setMicOn"
 				}
 
@@ -115,7 +187,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 475.0, 360.0, 53.0, 22.0 ],
+					"patching_rect" : [ 475.0, 380.0, 53.0, 22.0 ],
 					"text" : "s micOn"
 				}
 
@@ -1003,7 +1075,7 @@
 					"bgfillcolor_type" : "gradient",
 					"fontsize" : 13.0,
 					"id" : "obj-13",
-					"items" : [ "<choose plugin>", ",", "API-2500 (m)", ",", "API-2500 (s)", ",", "AUAudioFilePlayer", ",", "AUBandpass", ",", "AUDelay", ",", "AUDistortion", ",", "AUDynamicsProcessor", ",", "AUFilter", ",", "AUGraphicEQ", ",", "AUHighShelfFilter", ",", "AUHipass", ",", "AULowpass", ",", "AULowShelfFilter", ",", "AUMatrixReverb", ",", "AUMIDISynth", ",", "AUMultibandCompressor", ",", "AUNBandEQ", ",", "AUNetReceive", ",", "AUNetSend", ",", "AUNewPitch", ",", "AUParametricEQ", ",", "AUPeakLimiter", ",", "AUPitch", ",", "AUReverb2", ",", "AURogerBeep", ",", "AURoundTripAAC", ",", "AUSampleDelay", ",", "AUSampler", ",", "AUScheduledSoundPlayer", ",", "AUSoundFieldPanner", ",", "AUSoundIsolation", ",", "AUSpeechSynthesis", ",", "AUSphericalHeadPanner", ",", "AUVectorPanner", ",", "Berzerk Distortion (m)", ",", "Berzerk Distortion (s)", ",", "Brauer Motion (m->s)", ",", "Brauer Motion (s)", ",", "CLA-2A (m)", ",", "CLA-2A (s)", ",", "CLA-76 (m)", ",", "CLA-76 (s)", ",", "Clarity Vx (m)", ",", "Clarity Vx (s)", ",", "Digitalis", ",", "DLSMusicDevice", ",", "Echorec", ",", "Fog Convolver 2", ",", "HRTFPanner", ",", "Melodyne", ",", "MF-108S ClusterFlux", ",", "Nectar 3", ",", "Neutron 3 Compressor", ",", "Neutron 3 Equalizer", ",", "Neutron 3 Exciter", ",", "Neutron 3 Gate", ",", "Neutron 3 Sculptor", ",", "Neutron 3 Transient Shaper", ",", "Neutron 3 Visual Mixer", ",", "Neutron 3", ",", "OTT", ",", "Oxford Envolution", ",", "Ozone 9 Dynamic EQ", ",", "Ozone 9 Dynamics", ",", "Ozone 9 Equalizer", ",", "Ozone 9 Exciter", ",", "Ozone 9 Imager", ",", "Ozone 9 Low End Focus", ",", "Ozone 9 Master Rebalance", ",", "Ozone 9 Match EQ", ",", "Ozone 9 Maximizer", ",", "Ozone 9 Spectral Shaper", ",", "Ozone 9 Vintage Compressor", ",", "Ozone 9 Vintage EQ", ",", "Ozone 9 Vintage Limiter", ",", "Ozone 9 Vintage Tape", ",", "Ozone 9", ",", "PaulXStretch", ",", "plugdata-fx", ",", "plugdata", ",", "Pro-Q 3", ",", "PuigChild 660 (m)", ",", "PuigChild 670 (s)", ",", "PuigTec EQP1A (m)", ",", "PuigTec EQP1A (s)", ",", "PuigTec MEQ5 (m)", ",", "PuigTec MEQ5 (s)", ",", "Relay", ",", "Retro Fi (m)", ",", "Retro Fi (m->s)", ",", "Retro Fi (s)", ",", "RX 7 Breath Control", ",", "SketchCassette II", ",", "SoundField By RODE", ",", "SSL EV2 Channel (m)", ",", "SSL EV2 Channel (s)", ",", "SSLComp (m)", ",", "SSLComp (s)", ",", "Submarine (m)", ",", "Submarine (s)", ",", "Tonal Balance Control 2", ",", "ValhallaFreqEcho", ",", "ValhallaSpaceModulator", ",", "ValhallaSupermassive", ",", "ValhallaVintageVerb", ",", "VU Meter (m)", ",", "VU Meter (s)", ",", "Youlean Loudness Meter 2", ",", "Digitalis", ",", "FabFilter Pro-Q 3", ",", "FogConvolver2", ",", "Melodyne", ",", "MF-108S", ",", "Nectar 3", ",", "Neutron 3 Compressor", ",", "Neutron 3 Equalizer", ",", "Neutron 3 Exciter", ",", "Neutron 3 Gate", ",", "Neutron 3 Sculptor", ",", "Neutron 3 Transient Shaper", ",", "Neutron 3 Visual Mixer", ",", "Neutron 3", ",", "OTT", ",", "Oxford Envolution", ",", "Ozone 9 Dynamic EQ", ",", "Ozone 9 Dynamics", ",", "Ozone 9 Equalizer", ",", "Ozone 9 Exciter", ",", "Ozone 9 Imager", ",", "Ozone 9 Low End Focus", ",", "Ozone 9 Master Rebalance", ",", "Ozone 9 Match EQ", ",", "Ozone 9 Maximizer", ",", "Ozone 9 Spectral Shaper", ",", "Ozone 9 Vintage Compressor", ",", "Ozone 9 Vintage EQ", ",", "Ozone 9 Vintage Limiter", ",", "Ozone 9 Vintage Tape", ",", "Ozone 9", ",", "PaulXStretch", ",", "plugdata-fx", ",", "plugdata", ",", "Pulsar Echorec", ",", "Relay", ",", "RX 7 Breath Control", ",", "SketchCassette II", ",", "Tonal Balance Control 2", ",", "ValhallaFreqEcho", ",", "ValhallaSpaceModulator", ",", "ValhallaSupermassive", ",", "ValhallaVintageVerb", ",", "WaveShell1-VST3 14.12", ",", "Youlean Loudness Meter 2", ",", "compass_6DoF", ",", "compass_binaural", ",", "compass_binauralVR", ",", "compass_decoder", ",", "compass_gravitator", ",", "compass_sidechain", ",", "compass_spatedit", ",", "compass_tracker", ",", "compass_upmixer", ",", "cropac_binaural", ",", "FabFilter Pro-Q 3", ",", "hades_renderer", ",", "hodirac_binaural", ",", "hodirac_decoder", ",", "hodirac_upmixer", ",", "HOSIRR", ",", "Nectar 3", ",", "Neutron 3 Compressor", ",", "Neutron 3 Equalizer", ",", "Neutron 3 Exciter", ",", "Neutron 3 Gate", ",", "Neutron 3 Sculptor", ",", "Neutron 3 Transient Shaper", ",", "Neutron 3 Visual Mixer", ",", "Neutron 3", ",", "OTT", ",", "Ozone 9 Dynamic EQ", ",", "Ozone 9 Dynamics", ",", "Ozone 9 Equalizer", ",", "Ozone 9 Exciter", ",", "Ozone 9 Imager", ",", "Ozone 9 Low End Focus", ",", "Ozone 9 Master Rebalance", ",", "Ozone 9 Match EQ", ",", "Ozone 9 Maximizer", ",", "Ozone 9 Spectral Shaper", ",", "Ozone 9 Vintage Compressor", ",", "Ozone 9 Vintage EQ", ",", "Ozone 9 Vintage Limiter", ",", "Ozone 9 Vintage Tape", ",", "Ozone 9", ",", "Relay", ",", "RX 7 Breath Control", ",", "SoundField By RODE", ",", "sparta_6DoFconv", ",", "sparta_ambiBIN", ",", "sparta_ambiDEC", ",", "sparta_ambiDRC", ",", "sparta_ambiENC", ",", "sparta_ambiRoomSim", ",", "sparta_array2sh", ",", "sparta_beamformer", ",", "sparta_binauraliser", ",", "sparta_binauraliser_nf", ",", "sparta_decorrelator", ",", "sparta_dirass", ",", "sparta_matrixconv", ",", "sparta_multiconv", ",", "sparta_panner", ",", "sparta_pitchShifter", ",", "sparta_powermap", ",", "sparta_rotator", ",", "sparta_sldoa", ",", "sparta_spreader", ",", "Tonal Balance Control 2", ",", "UltrasonicSuperHearing", ",", "ValhallaFreqEcho", ",", "ValhallaSpaceModulator", ",", "ValhallaSupermassive", ",", "ValhallaVintageVerb_x64", ",", "WaveShell1-VST 14.12", ",", "Youlean Loudness Meter 2", ",", "API-2500 (m)", ",", "API-2500 (s)", ",", "AUAudioFilePlayer", ",", "AUBandpass", ",", "AUDelay", ",", "AUDistortion", ",", "AUDynamicsProcessor", ",", "AUFilter", ",", "AUGraphicEQ", ",", "AUHighShelfFilter", ",", "AUHipass", ",", "AULowpass", ",", "AULowShelfFilter", ",", "AUMatrixReverb", ",", "AUMIDISynth", ",", "AUMultibandCompressor", ",", "AUNBandEQ", ",", "AUNetReceive", ",", "AUNetSend", ",", "AUNewPitch", ",", "AUParametricEQ", ",", "AUPeakLimiter", ",", "AUPitch", ",", "AUReverb2", ",", "AURogerBeep", ",", "AURoundTripAAC", ",", "AUSampleDelay", ",", "AUSampler", ",", "AUScheduledSoundPlayer", ",", "AUSoundFieldPanner", ",", "AUSoundIsolation", ",", "AUSpeechSynthesis", ",", "AUSphericalHeadPanner", ",", "AUVectorPanner", ",", "Berzerk Distortion (m)", ",", "Berzerk Distortion (s)", ",", "Brauer Motion (m->s)", ",", "Brauer Motion (s)", ",", "CLA-2A (m)", ",", "CLA-2A (s)", ",", "CLA-76 (m)", ",", "CLA-76 (s)", ",", "Clarity Vx (m)", ",", "Clarity Vx (s)", ",", "Digitalis", ",", "DLSMusicDevice", ",", "Echorec", ",", "Fog Convolver 2", ",", "HRTFPanner", ",", "Melodyne", ",", "MF-108S ClusterFlux", ",", "Nectar 3", ",", "Neutron 3 Compressor", ",", "Neutron 3 Equalizer", ",", "Neutron 3 Exciter", ",", "Neutron 3 Gate", ",", "Neutron 3 Sculptor", ",", "Neutron 3 Transient Shaper", ",", "Neutron 3 Visual Mixer", ",", "Neutron 3", ",", "OTT", ",", "Oxford Envolution", ",", "Ozone 9 Dynamic EQ", ",", "Ozone 9 Dynamics", ",", "Ozone 9 Equalizer", ",", "Ozone 9 Exciter", ",", "Ozone 9 Imager", ",", "Ozone 9 Low End Focus", ",", "Ozone 9 Master Rebalance", ",", "Ozone 9 Match EQ", ",", "Ozone 9 Maximizer", ",", "Ozone 9 Spectral Shaper", ",", "Ozone 9 Vintage Compressor", ",", "Ozone 9 Vintage EQ", ",", "Ozone 9 Vintage Limiter", ",", "Ozone 9 Vintage Tape", ",", "Ozone 9", ",", "PaulXStretch", ",", "plugdata-fx", ",", "plugdata", ",", "Pro-Q 3", ",", "PuigChild 660 (m)", ",", "PuigChild 670 (s)", ",", "PuigTec EQP1A (m)", ",", "PuigTec EQP1A (s)", ",", "PuigTec MEQ5 (m)", ",", "PuigTec MEQ5 (s)", ",", "Relay", ",", "Retro Fi (m)", ",", "Retro Fi (m->s)", ",", "Retro Fi (s)", ",", "RX 7 Breath Control", ",", "SketchCassette II", ",", "SoundField By RODE", ",", "SSL EV2 Channel (m)", ",", "SSL EV2 Channel (s)", ",", "SSLComp (m)", ",", "SSLComp (s)", ",", "Submarine (m)", ",", "Submarine (s)", ",", "Tonal Balance Control 2", ",", "ValhallaFreqEcho", ",", "ValhallaSpaceModulator", ",", "ValhallaSupermassive", ",", "ValhallaVintageVerb", ",", "VU Meter (m)", ",", "VU Meter (s)", ",", "Youlean Loudness Meter 2", ",", "Digitalis", ",", "FabFilter Pro-Q 3", ",", "FogConvolver2", ",", "Melodyne", ",", "MF-108S", ",", "Nectar 3", ",", "Neutron 3 Compressor", ",", "Neutron 3 Equalizer", ",", "Neutron 3 Exciter", ",", "Neutron 3 Gate", ",", "Neutron 3 Sculptor", ",", "Neutron 3 Transient Shaper", ",", "Neutron 3 Visual Mixer", ",", "Neutron 3", ",", "OTT", ",", "Oxford Envolution", ",", "Ozone 9 Dynamic EQ", ",", "Ozone 9 Dynamics", ",", "Ozone 9 Equalizer", ",", "Ozone 9 Exciter", ",", "Ozone 9 Imager", ",", "Ozone 9 Low End Focus", ",", "Ozone 9 Master Rebalance", ",", "Ozone 9 Match EQ", ",", "Ozone 9 Maximizer", ",", "Ozone 9 Spectral Shaper", ",", "Ozone 9 Vintage Compressor", ",", "Ozone 9 Vintage EQ", ",", "Ozone 9 Vintage Limiter", ",", "Ozone 9 Vintage Tape", ",", "Ozone 9", ",", "PaulXStretch", ",", "plugdata-fx", ",", "plugdata", ",", "Pulsar Echorec", ",", "Relay", ",", "RX 7 Breath Control", ",", "SketchCassette II", ",", "Tonal Balance Control 2", ",", "ValhallaFreqEcho", ",", "ValhallaSpaceModulator", ",", "ValhallaSupermassive", ",", "ValhallaVintageVerb", ",", "WaveShell1-VST3 14.12", ",", "Youlean Loudness Meter 2", ",", "compass_6DoF", ",", "compass_binaural", ",", "compass_binauralVR", ",", "compass_decoder", ",", "compass_gravitator", ",", "compass_sidechain", ",", "compass_spatedit", ",", "compass_tracker", ",", "compass_upmixer", ",", "cropac_binaural", ",", "FabFilter Pro-Q 3", ",", "hades_renderer", ",", "hodirac_binaural", ",", "hodirac_decoder", ",", "hodirac_upmixer", ",", "HOSIRR", ",", "Nectar 3", ",", "Neutron 3 Compressor", ",", "Neutron 3 Equalizer", ",", "Neutron 3 Exciter", ",", "Neutron 3 Gate", ",", "Neutron 3 Sculptor", ",", "Neutron 3 Transient Shaper", ",", "Neutron 3 Visual Mixer", ",", "Neutron 3", ",", "OTT", ",", "Ozone 9 Dynamic EQ", ",", "Ozone 9 Dynamics", ",", "Ozone 9 Equalizer", ",", "Ozone 9 Exciter", ",", "Ozone 9 Imager", ",", "Ozone 9 Low End Focus", ",", "Ozone 9 Master Rebalance", ",", "Ozone 9 Match EQ", ",", "Ozone 9 Maximizer", ",", "Ozone 9 Spectral Shaper", ",", "Ozone 9 Vintage Compressor", ",", "Ozone 9 Vintage EQ", ",", "Ozone 9 Vintage Limiter", ",", "Ozone 9 Vintage Tape", ",", "Ozone 9", ",", "Relay", ",", "RX 7 Breath Control", ",", "SoundField By RODE", ",", "sparta_6DoFconv", ",", "sparta_ambiBIN", ",", "sparta_ambiDEC", ",", "sparta_ambiDRC", ",", "sparta_ambiENC", ",", "sparta_ambiRoomSim", ",", "sparta_array2sh", ",", "sparta_beamformer", ",", "sparta_binauraliser", ",", "sparta_binauraliser_nf", ",", "sparta_decorrelator", ",", "sparta_dirass", ",", "sparta_matrixconv", ",", "sparta_multiconv", ",", "sparta_panner", ",", "sparta_pitchShifter", ",", "sparta_powermap", ",", "sparta_rotator", ",", "sparta_sldoa", ",", "sparta_spreader", ",", "Tonal Balance Control 2", ",", "UltrasonicSuperHearing", ",", "ValhallaFreqEcho", ",", "ValhallaSpaceModulator", ",", "ValhallaSupermassive", ",", "ValhallaVintageVerb_x64", ",", "WaveShell1-VST 14.12", ",", "Youlean Loudness Meter 2", ",", "API-2500 (m)", ",", "API-2500 (s)", ",", "AUAudioFilePlayer", ",", "AUBandpass", ",", "AUDelay", ",", "AUDistortion", ",", "AUDynamicsProcessor", ",", "AUFilter", ",", "AUGraphicEQ", ",", "AUHighShelfFilter", ",", "AUHipass", ",", "AULowpass", ",", "AULowShelfFilter", ",", "AUMatrixReverb", ",", "AUMIDISynth", ",", "AUMultibandCompressor", ",", "AUNBandEQ", ",", "AUNetReceive", ",", "AUNetSend", ",", "AUNewPitch", ",", "AUParametricEQ", ",", "AUPeakLimiter", ",", "AUPitch", ",", "AUReverb2", ",", "AURogerBeep", ",", "AURoundTripAAC", ",", "AUSampleDelay", ",", "AUSampler", ",", "AUScheduledSoundPlayer", ",", "AUSoundFieldPanner", ",", "AUSoundIsolation", ",", "AUSpeechSynthesis", ",", "AUSphericalHeadPanner", ",", "AUVectorPanner", ",", "Berzerk Distortion (m)", ",", "Berzerk Distortion (s)", ",", "Brauer Motion (m->s)", ",", "Brauer Motion (s)", ",", "CLA-2A (m)", ",", "CLA-2A (s)", ",", "CLA-76 (m)", ",", "CLA-76 (s)", ",", "Clarity Vx (m)", ",", "Clarity Vx (s)", ",", "Digitalis", ",", "DLSMusicDevice", ",", "Echorec", ",", "Fog Convolver 2", ",", "HRTFPanner", ",", "Melodyne", ",", "MF-108S ClusterFlux", ",", "Nectar 3", ",", "Neutron 3 Compressor", ",", "Neutron 3 Equalizer", ",", "Neutron 3 Exciter", ",", "Neutron 3 Gate", ",", "Neutron 3 Sculptor", ",", "Neutron 3 Transient Shaper", ",", "Neutron 3 Visual Mixer", ",", "Neutron 3", ",", "OTT", ",", "Oxford Envolution", ",", "Ozone 9 Dynamic EQ", ",", "Ozone 9 Dynamics", ",", "Ozone 9 Equalizer", ",", "Ozone 9 Exciter", ",", "Ozone 9 Imager", ",", "Ozone 9 Low End Focus", ",", "Ozone 9 Master Rebalance", ",", "Ozone 9 Match EQ", ",", "Ozone 9 Maximizer", ",", "Ozone 9 Spectral Shaper", ",", "Ozone 9 Vintage Compressor", ",", "Ozone 9 Vintage EQ", ",", "Ozone 9 Vintage Limiter", ",", "Ozone 9 Vintage Tape", ",", "Ozone 9", ",", "PaulXStretch", ",", "plugdata-fx", ",", "plugdata", ",", "Pro-Q 3", ",", "PuigChild 660 (m)", ",", "PuigChild 670 (s)", ",", "PuigTec EQP1A (m)", ",", "PuigTec EQP1A (s)", ",", "PuigTec MEQ5 (m)", ",", "PuigTec MEQ5 (s)", ",", "Relay", ",", "Retro Fi (m)", ",", "Retro Fi (m->s)", ",", "Retro Fi (s)", ",", "RX 7 Breath Control", ",", "SketchCassette II", ",", "SoundField By RODE", ",", "SSL EV2 Channel (m)", ",", "SSL EV2 Channel (s)", ",", "SSLComp (m)", ",", "SSLComp (s)", ",", "Submarine (m)", ",", "Submarine (s)", ",", "Tonal Balance Control 2", ",", "ValhallaFreqEcho", ",", "ValhallaSpaceModulator", ",", "ValhallaSupermassive", ",", "ValhallaVintageVerb", ",", "VU Meter (m)", ",", "VU Meter (s)", ",", "Youlean Loudness Meter 2", ",", "Digitalis", ",", "FabFilter Pro-Q 3", ",", "FogConvolver2", ",", "Melodyne", ",", "MF-108S", ",", "Nectar 3", ",", "Neutron 3 Compressor", ",", "Neutron 3 Equalizer", ",", "Neutron 3 Exciter", ",", "Neutron 3 Gate", ",", "Neutron 3 Sculptor", ",", "Neutron 3 Transient Shaper", ",", "Neutron 3 Visual Mixer", ",", "Neutron 3", ",", "OTT", ",", "Oxford Envolution", ",", "Ozone 9 Dynamic EQ", ",", "Ozone 9 Dynamics", ",", "Ozone 9 Equalizer", ",", "Ozone 9 Exciter", ",", "Ozone 9 Imager", ",", "Ozone 9 Low End Focus", ",", "Ozone 9 Master Rebalance", ",", "Ozone 9 Match EQ", ",", "Ozone 9 Maximizer", ",", "Ozone 9 Spectral Shaper", ",", "Ozone 9 Vintage Compressor", ",", "Ozone 9 Vintage EQ", ",", "Ozone 9 Vintage Limiter", ",", "Ozone 9 Vintage Tape", ",", "Ozone 9", ",", "PaulXStretch", ",", "plugdata-fx", ",", "plugdata", ",", "Pulsar Echorec", ",", "Relay", ",", "RX 7 Breath Control", ",", "SketchCassette II", ",", "Tonal Balance Control 2", ",", "ValhallaFreqEcho", ",", "ValhallaSpaceModulator", ",", "ValhallaSupermassive", ",", "ValhallaVintageVerb", ",", "WaveShell1-VST3 14.12", ",", "Youlean Loudness Meter 2", ",", "compass_6DoF", ",", "compass_binaural", ",", "compass_binauralVR", ",", "compass_decoder", ",", "compass_gravitator", ",", "compass_sidechain", ",", "compass_spatedit", ",", "compass_tracker", ",", "compass_upmixer", ",", "cropac_binaural", ",", "FabFilter Pro-Q 3", ",", "hades_renderer", ",", "hodirac_binaural", ",", "hodirac_decoder", ",", "hodirac_upmixer", ",", "HOSIRR", ",", "Nectar 3", ",", "Neutron 3 Compressor", ",", "Neutron 3 Equalizer", ",", "Neutron 3 Exciter", ",", "Neutron 3 Gate", ",", "Neutron 3 Sculptor", ",", "Neutron 3 Transient Shaper", ",", "Neutron 3 Visual Mixer", ",", "Neutron 3", ",", "OTT", ",", "Ozone 9 Dynamic EQ", ",", "Ozone 9 Dynamics", ",", "Ozone 9 Equalizer", ",", "Ozone 9 Exciter", ",", "Ozone 9 Imager", ",", "Ozone 9 Low End Focus", ",", "Ozone 9 Master Rebalance", ",", "Ozone 9 Match EQ", ",", "Ozone 9 Maximizer", ",", "Ozone 9 Spectral Shaper", ",", "Ozone 9 Vintage Compressor", ",", "Ozone 9 Vintage EQ", ",", "Ozone 9 Vintage Limiter", ",", "Ozone 9 Vintage Tape", ",", "Ozone 9", ",", "Relay", ",", "RX 7 Breath Control", ",", "SoundField By RODE", ",", "sparta_6DoFconv", ",", "sparta_ambiBIN", ",", "sparta_ambiDEC", ",", "sparta_ambiDRC", ",", "sparta_ambiENC", ",", "sparta_ambiRoomSim", ",", "sparta_array2sh", ",", "sparta_beamformer", ",", "sparta_binauraliser", ",", "sparta_binauraliser_nf", ",", "sparta_decorrelator", ",", "sparta_dirass", ",", "sparta_matrixconv", ",", "sparta_multiconv", ",", "sparta_panner", ",", "sparta_pitchShifter", ",", "sparta_powermap", ",", "sparta_rotator", ",", "sparta_sldoa", ",", "sparta_spreader", ",", "Tonal Balance Control 2", ",", "UltrasonicSuperHearing", ",", "ValhallaFreqEcho", ",", "ValhallaSpaceModulator", ",", "ValhallaSupermassive", ",", "ValhallaVintageVerb_x64", ",", "WaveShell1-VST 14.12", ",", "Youlean Loudness Meter 2", ",", "API-2500 (m)", ",", "API-2500 (s)", ",", "AUAudioFilePlayer", ",", "AUBandpass", ",", "AUDelay", ",", "AUDistortion", ",", "AUDynamicsProcessor", ",", "AUFilter", ",", "AUGraphicEQ", ",", "AUHighShelfFilter", ",", "AUHipass", ",", "AULowpass", ",", "AULowShelfFilter", ",", "AUMatrixReverb", ",", "AUMIDISynth", ",", "AUMultibandCompressor", ",", "AUNBandEQ", ",", "AUNetReceive", ",", "AUNetSend", ",", "AUNewPitch", ",", "AUParametricEQ", ",", "AUPeakLimiter", ",", "AUPitch", ",", "AUReverb2", ",", "AURogerBeep", ",", "AURoundTripAAC", ",", "AUSampleDelay", ",", "AUSampler", ",", "AUScheduledSoundPlayer", ",", "AUSoundFieldPanner", ",", "AUSoundIsolation", ",", "AUSpeechSynthesis", ",", "AUSphericalHeadPanner", ",", "AUVectorPanner", ",", "Berzerk Distortion (m)", ",", "Berzerk Distortion (s)", ",", "Brauer Motion (m->s)", ",", "Brauer Motion (s)", ",", "CLA-2A (m)", ",", "CLA-2A (s)", ",", "CLA-76 (m)", ",", "CLA-76 (s)", ",", "Clarity Vx (m)", ",", "Clarity Vx (s)", ",", "Digitalis", ",", "DLSMusicDevice", ",", "Echorec", ",", "Fog Convolver 2", ",", "HRTFPanner", ",", "Melodyne", ",", "MF-108S ClusterFlux", ",", "Nectar 3", ",", "Neutron 3 Compressor", ",", "Neutron 3 Equalizer", ",", "Neutron 3 Exciter", ",", "Neutron 3 Gate", ",", "Neutron 3 Sculptor", ",", "Neutron 3 Transient Shaper", ",", "Neutron 3 Visual Mixer", ",", "Neutron 3", ",", "OTT", ",", "Oxford Envolution", ",", "Ozone 9 Dynamic EQ", ",", "Ozone 9 Dynamics", ",", "Ozone 9 Equalizer", ",", "Ozone 9 Exciter", ",", "Ozone 9 Imager", ",", "Ozone 9 Low End Focus", ",", "Ozone 9 Master Rebalance", ",", "Ozone 9 Match EQ", ",", "Ozone 9 Maximizer", ",", "Ozone 9 Spectral Shaper", ",", "Ozone 9 Vintage Compressor", ",", "Ozone 9 Vintage EQ", ",", "Ozone 9 Vintage Limiter", ",", "Ozone 9 Vintage Tape", ",", "Ozone 9", ",", "PaulXStretch", ",", "plugdata-fx", ",", "plugdata", ",", "Pro-Q 3", ",", "PuigChild 660 (m)", ",", "PuigChild 670 (s)", ",", "PuigTec EQP1A (m)", ",", "PuigTec EQP1A (s)", ",", "PuigTec MEQ5 (m)", ",", "PuigTec MEQ5 (s)", ",", "Relay", ",", "Retro Fi (m)", ",", "Retro Fi (m->s)", ",", "Retro Fi (s)", ",", "RX 7 Breath Control", ",", "SketchCassette II", ",", "SoundField By RODE", ",", "SSL EV2 Channel (m)", ",", "SSL EV2 Channel (s)", ",", "SSLComp (m)", ",", "SSLComp (s)", ",", "Submarine (m)", ",", "Submarine (s)", ",", "Tonal Balance Control 2", ",", "ValhallaFreqEcho", ",", "ValhallaSpaceModulator", ",", "ValhallaSupermassive", ",", "ValhallaVintageVerb", ",", "VU Meter (m)", ",", "VU Meter (s)", ",", "Youlean Loudness Meter 2", ",", "Digitalis", ",", "FabFilter Pro-Q 3", ",", "FogConvolver2", ",", "Melodyne", ",", "MF-108S", ",", "Nectar 3", ",", "Neutron 3 Compressor", ",", "Neutron 3 Equalizer", ",", "Neutron 3 Exciter", ",", "Neutron 3 Gate", ",", "Neutron 3 Sculptor", ",", "Neutron 3 Transient Shaper", ",", "Neutron 3 Visual Mixer", ",", "Neutron 3", ",", "OTT", ",", "Oxford Envolution", ",", "Ozone 9 Dynamic EQ", ",", "Ozone 9 Dynamics", ",", "Ozone 9 Equalizer", ",", "Ozone 9 Exciter", ",", "Ozone 9 Imager", ",", "Ozone 9 Low End Focus", ",", "Ozone 9 Master Rebalance", ",", "Ozone 9 Match EQ", ",", "Ozone 9 Maximizer", ",", "Ozone 9 Spectral Shaper", ",", "Ozone 9 Vintage Compressor", ",", "Ozone 9 Vintage EQ", ",", "Ozone 9 Vintage Limiter", ",", "Ozone 9 Vintage Tape", ",", "Ozone 9", ",", "PaulXStretch", ",", "plugdata-fx", ",", "plugdata", ",", "Pulsar Echorec", ",", "Relay", ",", "RX 7 Breath Control", ",", "SketchCassette II", ",", "Tonal Balance Control 2", ",", "ValhallaFreqEcho", ",", "ValhallaSpaceModulator", ",", "ValhallaSupermassive", ",", "ValhallaVintageVerb", ",", "WaveShell1-VST3 14.12", ",", "Youlean Loudness Meter 2", ",", "compass_6DoF", ",", "compass_binaural", ",", "compass_binauralVR", ",", "compass_decoder", ",", "compass_gravitator", ",", "compass_sidechain", ",", "compass_spatedit", ",", "compass_tracker", ",", "compass_upmixer", ",", "cropac_binaural", ",", "FabFilter Pro-Q 3", ",", "hades_renderer", ",", "hodirac_binaural", ",", "hodirac_decoder", ",", "hodirac_upmixer", ",", "HOSIRR", ",", "Nectar 3", ",", "Neutron 3 Compressor", ",", "Neutron 3 Equalizer", ",", "Neutron 3 Exciter", ",", "Neutron 3 Gate", ",", "Neutron 3 Sculptor", ",", "Neutron 3 Transient Shaper", ",", "Neutron 3 Visual Mixer", ",", "Neutron 3", ",", "OTT", ",", "Ozone 9 Dynamic EQ", ",", "Ozone 9 Dynamics", ",", "Ozone 9 Equalizer", ",", "Ozone 9 Exciter", ",", "Ozone 9 Imager", ",", "Ozone 9 Low End Focus", ",", "Ozone 9 Master Rebalance", ",", "Ozone 9 Match EQ", ",", "Ozone 9 Maximizer", ",", "Ozone 9 Spectral Shaper", ",", "Ozone 9 Vintage Compressor", ",", "Ozone 9 Vintage EQ", ",", "Ozone 9 Vintage Limiter", ",", "Ozone 9 Vintage Tape", ",", "Ozone 9", ",", "Relay", ",", "RX 7 Breath Control", ",", "SoundField By RODE", ",", "sparta_6DoFconv", ",", "sparta_ambiBIN", ",", "sparta_ambiDEC", ",", "sparta_ambiDRC", ",", "sparta_ambiENC", ",", "sparta_ambiRoomSim", ",", "sparta_array2sh", ",", "sparta_beamformer", ",", "sparta_binauraliser", ",", "sparta_binauraliser_nf", ",", "sparta_decorrelator", ",", "sparta_dirass", ",", "sparta_matrixconv", ",", "sparta_multiconv", ",", "sparta_panner", ",", "sparta_pitchShifter", ",", "sparta_powermap", ",", "sparta_rotator", ",", "sparta_sldoa", ",", "sparta_spreader", ",", "Tonal Balance Control 2", ",", "UltrasonicSuperHearing", ",", "ValhallaFreqEcho", ",", "ValhallaSpaceModulator", ",", "ValhallaSupermassive", ",", "ValhallaVintageVerb_x64", ",", "WaveShell1-VST 14.12", ",", "Youlean Loudness Meter 2" ],
+					"items" : "<choose plugin>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1641,7 +1713,7 @@
 									"bgfillcolor_type" : "gradient",
 									"fontsize" : 13.0,
 									"id" : "obj-20",
-									"items" : [ "<choose plugin>", ",", "API-2500 (m)", ",", "API-2500 (s)", ",", "AUAudioFilePlayer", ",", "AUBandpass", ",", "AUDelay", ",", "AUDistortion", ",", "AUDynamicsProcessor", ",", "AUFilter", ",", "AUGraphicEQ", ",", "AUHighShelfFilter", ",", "AUHipass", ",", "AULowpass", ",", "AULowShelfFilter", ",", "AUMatrixReverb", ",", "AUMIDISynth", ",", "AUMultibandCompressor", ",", "AUNBandEQ", ",", "AUNetReceive", ",", "AUNetSend", ",", "AUNewPitch", ",", "AUParametricEQ", ",", "AUPeakLimiter", ",", "AUPitch", ",", "AUReverb2", ",", "AURogerBeep", ",", "AURoundTripAAC", ",", "AUSampleDelay", ",", "AUSampler", ",", "AUScheduledSoundPlayer", ",", "AUSoundFieldPanner", ",", "AUSoundIsolation", ",", "AUSpeechSynthesis", ",", "AUSphericalHeadPanner", ",", "AUVectorPanner", ",", "Berzerk Distortion (m)", ",", "Berzerk Distortion (s)", ",", "Brauer Motion (m->s)", ",", "Brauer Motion (s)", ",", "CLA-2A (m)", ",", "CLA-2A (s)", ",", "CLA-76 (m)", ",", "CLA-76 (s)", ",", "Clarity Vx (m)", ",", "Clarity Vx (s)", ",", "Digitalis", ",", "DLSMusicDevice", ",", "Echorec", ",", "Fog Convolver 2", ",", "HRTFPanner", ",", "Melodyne", ",", "MF-108S ClusterFlux", ",", "Nectar 3", ",", "Neutron 3 Compressor", ",", "Neutron 3 Equalizer", ",", "Neutron 3 Exciter", ",", "Neutron 3 Gate", ",", "Neutron 3 Sculptor", ",", "Neutron 3 Transient Shaper", ",", "Neutron 3 Visual Mixer", ",", "Neutron 3", ",", "OTT", ",", "Oxford Envolution", ",", "Ozone 9 Dynamic EQ", ",", "Ozone 9 Dynamics", ",", "Ozone 9 Equalizer", ",", "Ozone 9 Exciter", ",", "Ozone 9 Imager", ",", "Ozone 9 Low End Focus", ",", "Ozone 9 Master Rebalance", ",", "Ozone 9 Match EQ", ",", "Ozone 9 Maximizer", ",", "Ozone 9 Spectral Shaper", ",", "Ozone 9 Vintage Compressor", ",", "Ozone 9 Vintage EQ", ",", "Ozone 9 Vintage Limiter", ",", "Ozone 9 Vintage Tape", ",", "Ozone 9", ",", "PaulXStretch", ",", "plugdata-fx", ",", "plugdata", ",", "Pro-Q 3", ",", "PuigChild 660 (m)", ",", "PuigChild 670 (s)", ",", "PuigTec EQP1A (m)", ",", "PuigTec EQP1A (s)", ",", "PuigTec MEQ5 (m)", ",", "PuigTec MEQ5 (s)", ",", "Relay", ",", "Retro Fi (m)", ",", "Retro Fi (m->s)", ",", "Retro Fi (s)", ",", "RX 7 Breath Control", ",", "SketchCassette II", ",", "SoundField By RODE", ",", "SSL EV2 Channel (m)", ",", "SSL EV2 Channel (s)", ",", "SSLComp (m)", ",", "SSLComp (s)", ",", "Submarine (m)", ",", "Submarine (s)", ",", "Tonal Balance Control 2", ",", "ValhallaFreqEcho", ",", "ValhallaSpaceModulator", ",", "ValhallaSupermassive", ",", "ValhallaVintageVerb", ",", "VU Meter (m)", ",", "VU Meter (s)", ",", "Youlean Loudness Meter 2", ",", "Digitalis", ",", "FabFilter Pro-Q 3", ",", "FogConvolver2", ",", "Melodyne", ",", "MF-108S", ",", "Nectar 3", ",", "Neutron 3 Compressor", ",", "Neutron 3 Equalizer", ",", "Neutron 3 Exciter", ",", "Neutron 3 Gate", ",", "Neutron 3 Sculptor", ",", "Neutron 3 Transient Shaper", ",", "Neutron 3 Visual Mixer", ",", "Neutron 3", ",", "OTT", ",", "Oxford Envolution", ",", "Ozone 9 Dynamic EQ", ",", "Ozone 9 Dynamics", ",", "Ozone 9 Equalizer", ",", "Ozone 9 Exciter", ",", "Ozone 9 Imager", ",", "Ozone 9 Low End Focus", ",", "Ozone 9 Master Rebalance", ",", "Ozone 9 Match EQ", ",", "Ozone 9 Maximizer", ",", "Ozone 9 Spectral Shaper", ",", "Ozone 9 Vintage Compressor", ",", "Ozone 9 Vintage EQ", ",", "Ozone 9 Vintage Limiter", ",", "Ozone 9 Vintage Tape", ",", "Ozone 9", ",", "PaulXStretch", ",", "plugdata-fx", ",", "plugdata", ",", "Pulsar Echorec", ",", "Relay", ",", "RX 7 Breath Control", ",", "SketchCassette II", ",", "Tonal Balance Control 2", ",", "ValhallaFreqEcho", ",", "ValhallaSpaceModulator", ",", "ValhallaSupermassive", ",", "ValhallaVintageVerb", ",", "WaveShell1-VST3 14.12", ",", "Youlean Loudness Meter 2", ",", "compass_6DoF", ",", "compass_binaural", ",", "compass_binauralVR", ",", "compass_decoder", ",", "compass_gravitator", ",", "compass_sidechain", ",", "compass_spatedit", ",", "compass_tracker", ",", "compass_upmixer", ",", "cropac_binaural", ",", "FabFilter Pro-Q 3", ",", "hades_renderer", ",", "hodirac_binaural", ",", "hodirac_decoder", ",", "hodirac_upmixer", ",", "HOSIRR", ",", "Nectar 3", ",", "Neutron 3 Compressor", ",", "Neutron 3 Equalizer", ",", "Neutron 3 Exciter", ",", "Neutron 3 Gate", ",", "Neutron 3 Sculptor", ",", "Neutron 3 Transient Shaper", ",", "Neutron 3 Visual Mixer", ",", "Neutron 3", ",", "OTT", ",", "Ozone 9 Dynamic EQ", ",", "Ozone 9 Dynamics", ",", "Ozone 9 Equalizer", ",", "Ozone 9 Exciter", ",", "Ozone 9 Imager", ",", "Ozone 9 Low End Focus", ",", "Ozone 9 Master Rebalance", ",", "Ozone 9 Match EQ", ",", "Ozone 9 Maximizer", ",", "Ozone 9 Spectral Shaper", ",", "Ozone 9 Vintage Compressor", ",", "Ozone 9 Vintage EQ", ",", "Ozone 9 Vintage Limiter", ",", "Ozone 9 Vintage Tape", ",", "Ozone 9", ",", "Relay", ",", "RX 7 Breath Control", ",", "SoundField By RODE", ",", "sparta_6DoFconv", ",", "sparta_ambiBIN", ",", "sparta_ambiDEC", ",", "sparta_ambiDRC", ",", "sparta_ambiENC", ",", "sparta_ambiRoomSim", ",", "sparta_array2sh", ",", "sparta_beamformer", ",", "sparta_binauraliser", ",", "sparta_binauraliser_nf", ",", "sparta_decorrelator", ",", "sparta_dirass", ",", "sparta_matrixconv", ",", "sparta_multiconv", ",", "sparta_panner", ",", "sparta_pitchShifter", ",", "sparta_powermap", ",", "sparta_rotator", ",", "sparta_sldoa", ",", "sparta_spreader", ",", "Tonal Balance Control 2", ",", "UltrasonicSuperHearing", ",", "ValhallaFreqEcho", ",", "ValhallaSpaceModulator", ",", "ValhallaSupermassive", ",", "ValhallaVintageVerb_x64", ",", "WaveShell1-VST 14.12", ",", "Youlean Loudness Meter 2", ",", "API-2500 (m)", ",", "API-2500 (s)", ",", "AUAudioFilePlayer", ",", "AUBandpass", ",", "AUDelay", ",", "AUDistortion", ",", "AUDynamicsProcessor", ",", "AUFilter", ",", "AUGraphicEQ", ",", "AUHighShelfFilter", ",", "AUHipass", ",", "AULowpass", ",", "AULowShelfFilter", ",", "AUMatrixReverb", ",", "AUMIDISynth", ",", "AUMultibandCompressor", ",", "AUNBandEQ", ",", "AUNetReceive", ",", "AUNetSend", ",", "AUNewPitch", ",", "AUParametricEQ", ",", "AUPeakLimiter", ",", "AUPitch", ",", "AUReverb2", ",", "AURogerBeep", ",", "AURoundTripAAC", ",", "AUSampleDelay", ",", "AUSampler", ",", "AUScheduledSoundPlayer", ",", "AUSoundFieldPanner", ",", "AUSoundIsolation", ",", "AUSpeechSynthesis", ",", "AUSphericalHeadPanner", ",", "AUVectorPanner", ",", "Berzerk Distortion (m)", ",", "Berzerk Distortion (s)", ",", "Brauer Motion (m->s)", ",", "Brauer Motion (s)", ",", "CLA-2A (m)", ",", "CLA-2A (s)", ",", "CLA-76 (m)", ",", "CLA-76 (s)", ",", "Clarity Vx (m)", ",", "Clarity Vx (s)", ",", "Digitalis", ",", "DLSMusicDevice", ",", "Echorec", ",", "Fog Convolver 2", ",", "HRTFPanner", ",", "Melodyne", ",", "MF-108S ClusterFlux", ",", "Nectar 3", ",", "Neutron 3 Compressor", ",", "Neutron 3 Equalizer", ",", "Neutron 3 Exciter", ",", "Neutron 3 Gate", ",", "Neutron 3 Sculptor", ",", "Neutron 3 Transient Shaper", ",", "Neutron 3 Visual Mixer", ",", "Neutron 3", ",", "OTT", ",", "Oxford Envolution", ",", "Ozone 9 Dynamic EQ", ",", "Ozone 9 Dynamics", ",", "Ozone 9 Equalizer", ",", "Ozone 9 Exciter", ",", "Ozone 9 Imager", ",", "Ozone 9 Low End Focus", ",", "Ozone 9 Master Rebalance", ",", "Ozone 9 Match EQ", ",", "Ozone 9 Maximizer", ",", "Ozone 9 Spectral Shaper", ",", "Ozone 9 Vintage Compressor", ",", "Ozone 9 Vintage EQ", ",", "Ozone 9 Vintage Limiter", ",", "Ozone 9 Vintage Tape", ",", "Ozone 9", ",", "PaulXStretch", ",", "plugdata-fx", ",", "plugdata", ",", "Pro-Q 3", ",", "PuigChild 660 (m)", ",", "PuigChild 670 (s)", ",", "PuigTec EQP1A (m)", ",", "PuigTec EQP1A (s)", ",", "PuigTec MEQ5 (m)", ",", "PuigTec MEQ5 (s)", ",", "Relay", ",", "Retro Fi (m)", ",", "Retro Fi (m->s)", ",", "Retro Fi (s)", ",", "RX 7 Breath Control", ",", "SketchCassette II", ",", "SoundField By RODE", ",", "SSL EV2 Channel (m)", ",", "SSL EV2 Channel (s)", ",", "SSLComp (m)", ",", "SSLComp (s)", ",", "Submarine (m)", ",", "Submarine (s)", ",", "Tonal Balance Control 2", ",", "ValhallaFreqEcho", ",", "ValhallaSpaceModulator", ",", "ValhallaSupermassive", ",", "ValhallaVintageVerb", ",", "VU Meter (m)", ",", "VU Meter (s)", ",", "Youlean Loudness Meter 2", ",", "Digitalis", ",", "FabFilter Pro-Q 3", ",", "FogConvolver2", ",", "Melodyne", ",", "MF-108S", ",", "Nectar 3", ",", "Neutron 3 Compressor", ",", "Neutron 3 Equalizer", ",", "Neutron 3 Exciter", ",", "Neutron 3 Gate", ",", "Neutron 3 Sculptor", ",", "Neutron 3 Transient Shaper", ",", "Neutron 3 Visual Mixer", ",", "Neutron 3", ",", "OTT", ",", "Oxford Envolution", ",", "Ozone 9 Dynamic EQ", ",", "Ozone 9 Dynamics", ",", "Ozone 9 Equalizer", ",", "Ozone 9 Exciter", ",", "Ozone 9 Imager", ",", "Ozone 9 Low End Focus", ",", "Ozone 9 Master Rebalance", ",", "Ozone 9 Match EQ", ",", "Ozone 9 Maximizer", ",", "Ozone 9 Spectral Shaper", ",", "Ozone 9 Vintage Compressor", ",", "Ozone 9 Vintage EQ", ",", "Ozone 9 Vintage Limiter", ",", "Ozone 9 Vintage Tape", ",", "Ozone 9", ",", "PaulXStretch", ",", "plugdata-fx", ",", "plugdata", ",", "Pulsar Echorec", ",", "Relay", ",", "RX 7 Breath Control", ",", "SketchCassette II", ",", "Tonal Balance Control 2", ",", "ValhallaFreqEcho", ",", "ValhallaSpaceModulator", ",", "ValhallaSupermassive", ",", "ValhallaVintageVerb", ",", "WaveShell1-VST3 14.12", ",", "Youlean Loudness Meter 2", ",", "compass_6DoF", ",", "compass_binaural", ",", "compass_binauralVR", ",", "compass_decoder", ",", "compass_gravitator", ",", "compass_sidechain", ",", "compass_spatedit", ",", "compass_tracker", ",", "compass_upmixer", ",", "cropac_binaural", ",", "FabFilter Pro-Q 3", ",", "hades_renderer", ",", "hodirac_binaural", ",", "hodirac_decoder", ",", "hodirac_upmixer", ",", "HOSIRR", ",", "Nectar 3", ",", "Neutron 3 Compressor", ",", "Neutron 3 Equalizer", ",", "Neutron 3 Exciter", ",", "Neutron 3 Gate", ",", "Neutron 3 Sculptor", ",", "Neutron 3 Transient Shaper", ",", "Neutron 3 Visual Mixer", ",", "Neutron 3", ",", "OTT", ",", "Ozone 9 Dynamic EQ", ",", "Ozone 9 Dynamics", ",", "Ozone 9 Equalizer", ",", "Ozone 9 Exciter", ",", "Ozone 9 Imager", ",", "Ozone 9 Low End Focus", ",", "Ozone 9 Master Rebalance", ",", "Ozone 9 Match EQ", ",", "Ozone 9 Maximizer", ",", "Ozone 9 Spectral Shaper", ",", "Ozone 9 Vintage Compressor", ",", "Ozone 9 Vintage EQ", ",", "Ozone 9 Vintage Limiter", ",", "Ozone 9 Vintage Tape", ",", "Ozone 9", ",", "Relay", ",", "RX 7 Breath Control", ",", "SoundField By RODE", ",", "sparta_6DoFconv", ",", "sparta_ambiBIN", ",", "sparta_ambiDEC", ",", "sparta_ambiDRC", ",", "sparta_ambiENC", ",", "sparta_ambiRoomSim", ",", "sparta_array2sh", ",", "sparta_beamformer", ",", "sparta_binauraliser", ",", "sparta_binauraliser_nf", ",", "sparta_decorrelator", ",", "sparta_dirass", ",", "sparta_matrixconv", ",", "sparta_multiconv", ",", "sparta_panner", ",", "sparta_pitchShifter", ",", "sparta_powermap", ",", "sparta_rotator", ",", "sparta_sldoa", ",", "sparta_spreader", ",", "Tonal Balance Control 2", ",", "UltrasonicSuperHearing", ",", "ValhallaFreqEcho", ",", "ValhallaSpaceModulator", ",", "ValhallaSupermassive", ",", "ValhallaVintageVerb_x64", ",", "WaveShell1-VST 14.12", ",", "Youlean Loudness Meter 2", ",", "API-2500 (m)", ",", "API-2500 (s)", ",", "AUAudioFilePlayer", ",", "AUBandpass", ",", "AUDelay", ",", "AUDistortion", ",", "AUDynamicsProcessor", ",", "AUFilter", ",", "AUGraphicEQ", ",", "AUHighShelfFilter", ",", "AUHipass", ",", "AULowpass", ",", "AULowShelfFilter", ",", "AUMatrixReverb", ",", "AUMIDISynth", ",", "AUMultibandCompressor", ",", "AUNBandEQ", ",", "AUNetReceive", ",", "AUNetSend", ",", "AUNewPitch", ",", "AUParametricEQ", ",", "AUPeakLimiter", ",", "AUPitch", ",", "AUReverb2", ",", "AURogerBeep", ",", "AURoundTripAAC", ",", "AUSampleDelay", ",", "AUSampler", ",", "AUScheduledSoundPlayer", ",", "AUSoundFieldPanner", ",", "AUSoundIsolation", ",", "AUSpeechSynthesis", ",", "AUSphericalHeadPanner", ",", "AUVectorPanner", ",", "Berzerk Distortion (m)", ",", "Berzerk Distortion (s)", ",", "Brauer Motion (m->s)", ",", "Brauer Motion (s)", ",", "CLA-2A (m)", ",", "CLA-2A (s)", ",", "CLA-76 (m)", ",", "CLA-76 (s)", ",", "Clarity Vx (m)", ",", "Clarity Vx (s)", ",", "Digitalis", ",", "DLSMusicDevice", ",", "Echorec", ",", "Fog Convolver 2", ",", "HRTFPanner", ",", "Melodyne", ",", "MF-108S ClusterFlux", ",", "Nectar 3", ",", "Neutron 3 Compressor", ",", "Neutron 3 Equalizer", ",", "Neutron 3 Exciter", ",", "Neutron 3 Gate", ",", "Neutron 3 Sculptor", ",", "Neutron 3 Transient Shaper", ",", "Neutron 3 Visual Mixer", ",", "Neutron 3", ",", "OTT", ",", "Oxford Envolution", ",", "Ozone 9 Dynamic EQ", ",", "Ozone 9 Dynamics", ",", "Ozone 9 Equalizer", ",", "Ozone 9 Exciter", ",", "Ozone 9 Imager", ",", "Ozone 9 Low End Focus", ",", "Ozone 9 Master Rebalance", ",", "Ozone 9 Match EQ", ",", "Ozone 9 Maximizer", ",", "Ozone 9 Spectral Shaper", ",", "Ozone 9 Vintage Compressor", ",", "Ozone 9 Vintage EQ", ",", "Ozone 9 Vintage Limiter", ",", "Ozone 9 Vintage Tape", ",", "Ozone 9", ",", "PaulXStretch", ",", "plugdata-fx", ",", "plugdata", ",", "Pro-Q 3", ",", "PuigChild 660 (m)", ",", "PuigChild 670 (s)", ",", "PuigTec EQP1A (m)", ",", "PuigTec EQP1A (s)", ",", "PuigTec MEQ5 (m)", ",", "PuigTec MEQ5 (s)", ",", "Relay", ",", "Retro Fi (m)", ",", "Retro Fi (m->s)", ",", "Retro Fi (s)", ",", "RX 7 Breath Control", ",", "SketchCassette II", ",", "SoundField By RODE", ",", "SSL EV2 Channel (m)", ",", "SSL EV2 Channel (s)", ",", "SSLComp (m)", ",", "SSLComp (s)", ",", "Submarine (m)", ",", "Submarine (s)", ",", "Tonal Balance Control 2", ",", "ValhallaFreqEcho", ",", "ValhallaSpaceModulator", ",", "ValhallaSupermassive", ",", "ValhallaVintageVerb", ",", "VU Meter (m)", ",", "VU Meter (s)", ",", "Youlean Loudness Meter 2", ",", "Digitalis", ",", "FabFilter Pro-Q 3", ",", "FogConvolver2", ",", "Melodyne", ",", "MF-108S", ",", "Nectar 3", ",", "Neutron 3 Compressor", ",", "Neutron 3 Equalizer", ",", "Neutron 3 Exciter", ",", "Neutron 3 Gate", ",", "Neutron 3 Sculptor", ",", "Neutron 3 Transient Shaper", ",", "Neutron 3 Visual Mixer", ",", "Neutron 3", ",", "OTT", ",", "Oxford Envolution", ",", "Ozone 9 Dynamic EQ", ",", "Ozone 9 Dynamics", ",", "Ozone 9 Equalizer", ",", "Ozone 9 Exciter", ",", "Ozone 9 Imager", ",", "Ozone 9 Low End Focus", ",", "Ozone 9 Master Rebalance", ",", "Ozone 9 Match EQ", ",", "Ozone 9 Maximizer", ",", "Ozone 9 Spectral Shaper", ",", "Ozone 9 Vintage Compressor", ",", "Ozone 9 Vintage EQ", ",", "Ozone 9 Vintage Limiter", ",", "Ozone 9 Vintage Tape", ",", "Ozone 9", ",", "PaulXStretch", ",", "plugdata-fx", ",", "plugdata", ",", "Pulsar Echorec", ",", "Relay", ",", "RX 7 Breath Control", ",", "SketchCassette II", ",", "Tonal Balance Control 2", ",", "ValhallaFreqEcho", ",", "ValhallaSpaceModulator", ",", "ValhallaSupermassive", ",", "ValhallaVintageVerb", ",", "WaveShell1-VST3 14.12", ",", "Youlean Loudness Meter 2", ",", "compass_6DoF", ",", "compass_binaural", ",", "compass_binauralVR", ",", "compass_decoder", ",", "compass_gravitator", ",", "compass_sidechain", ",", "compass_spatedit", ",", "compass_tracker", ",", "compass_upmixer", ",", "cropac_binaural", ",", "FabFilter Pro-Q 3", ",", "hades_renderer", ",", "hodirac_binaural", ",", "hodirac_decoder", ",", "hodirac_upmixer", ",", "HOSIRR", ",", "Nectar 3", ",", "Neutron 3 Compressor", ",", "Neutron 3 Equalizer", ",", "Neutron 3 Exciter", ",", "Neutron 3 Gate", ",", "Neutron 3 Sculptor", ",", "Neutron 3 Transient Shaper", ",", "Neutron 3 Visual Mixer", ",", "Neutron 3", ",", "OTT", ",", "Ozone 9 Dynamic EQ", ",", "Ozone 9 Dynamics", ",", "Ozone 9 Equalizer", ",", "Ozone 9 Exciter", ",", "Ozone 9 Imager", ",", "Ozone 9 Low End Focus", ",", "Ozone 9 Master Rebalance", ",", "Ozone 9 Match EQ", ",", "Ozone 9 Maximizer", ",", "Ozone 9 Spectral Shaper", ",", "Ozone 9 Vintage Compressor", ",", "Ozone 9 Vintage EQ", ",", "Ozone 9 Vintage Limiter", ",", "Ozone 9 Vintage Tape", ",", "Ozone 9", ",", "Relay", ",", "RX 7 Breath Control", ",", "SoundField By RODE", ",", "sparta_6DoFconv", ",", "sparta_ambiBIN", ",", "sparta_ambiDEC", ",", "sparta_ambiDRC", ",", "sparta_ambiENC", ",", "sparta_ambiRoomSim", ",", "sparta_array2sh", ",", "sparta_beamformer", ",", "sparta_binauraliser", ",", "sparta_binauraliser_nf", ",", "sparta_decorrelator", ",", "sparta_dirass", ",", "sparta_matrixconv", ",", "sparta_multiconv", ",", "sparta_panner", ",", "sparta_pitchShifter", ",", "sparta_powermap", ",", "sparta_rotator", ",", "sparta_sldoa", ",", "sparta_spreader", ",", "Tonal Balance Control 2", ",", "UltrasonicSuperHearing", ",", "ValhallaFreqEcho", ",", "ValhallaSpaceModulator", ",", "ValhallaSupermassive", ",", "ValhallaVintageVerb_x64", ",", "WaveShell1-VST 14.12", ",", "Youlean Loudness Meter 2", ",", "API-2500 (m)", ",", "API-2500 (s)", ",", "AUAudioFilePlayer", ",", "AUBandpass", ",", "AUDelay", ",", "AUDistortion", ",", "AUDynamicsProcessor", ",", "AUFilter", ",", "AUGraphicEQ", ",", "AUHighShelfFilter", ",", "AUHipass", ",", "AULowpass", ",", "AULowShelfFilter", ",", "AUMatrixReverb", ",", "AUMIDISynth", ",", "AUMultibandCompressor", ",", "AUNBandEQ", ",", "AUNetReceive", ",", "AUNetSend", ",", "AUNewPitch", ",", "AUParametricEQ", ",", "AUPeakLimiter", ",", "AUPitch", ",", "AUReverb2", ",", "AURogerBeep", ",", "AURoundTripAAC", ",", "AUSampleDelay", ",", "AUSampler", ",", "AUScheduledSoundPlayer", ",", "AUSoundFieldPanner", ",", "AUSoundIsolation", ",", "AUSpeechSynthesis", ",", "AUSphericalHeadPanner", ",", "AUVectorPanner", ",", "Berzerk Distortion (m)", ",", "Berzerk Distortion (s)", ",", "Brauer Motion (m->s)", ",", "Brauer Motion (s)", ",", "CLA-2A (m)", ",", "CLA-2A (s)", ",", "CLA-76 (m)", ",", "CLA-76 (s)", ",", "Clarity Vx (m)", ",", "Clarity Vx (s)", ",", "Digitalis", ",", "DLSMusicDevice", ",", "Echorec", ",", "Fog Convolver 2", ",", "HRTFPanner", ",", "Melodyne", ",", "MF-108S ClusterFlux", ",", "Nectar 3", ",", "Neutron 3 Compressor", ",", "Neutron 3 Equalizer", ",", "Neutron 3 Exciter", ",", "Neutron 3 Gate", ",", "Neutron 3 Sculptor", ",", "Neutron 3 Transient Shaper", ",", "Neutron 3 Visual Mixer", ",", "Neutron 3", ",", "OTT", ",", "Oxford Envolution", ",", "Ozone 9 Dynamic EQ", ",", "Ozone 9 Dynamics", ",", "Ozone 9 Equalizer", ",", "Ozone 9 Exciter", ",", "Ozone 9 Imager", ",", "Ozone 9 Low End Focus", ",", "Ozone 9 Master Rebalance", ",", "Ozone 9 Match EQ", ",", "Ozone 9 Maximizer", ",", "Ozone 9 Spectral Shaper", ",", "Ozone 9 Vintage Compressor", ",", "Ozone 9 Vintage EQ", ",", "Ozone 9 Vintage Limiter", ",", "Ozone 9 Vintage Tape", ",", "Ozone 9", ",", "PaulXStretch", ",", "plugdata-fx", ",", "plugdata", ",", "Pro-Q 3", ",", "PuigChild 660 (m)", ",", "PuigChild 670 (s)", ",", "PuigTec EQP1A (m)", ",", "PuigTec EQP1A (s)", ",", "PuigTec MEQ5 (m)", ",", "PuigTec MEQ5 (s)", ",", "Relay", ",", "Retro Fi (m)", ",", "Retro Fi (m->s)", ",", "Retro Fi (s)", ",", "RX 7 Breath Control", ",", "SketchCassette II", ",", "SoundField By RODE", ",", "SSL EV2 Channel (m)", ",", "SSL EV2 Channel (s)", ",", "SSLComp (m)", ",", "SSLComp (s)", ",", "Submarine (m)", ",", "Submarine (s)", ",", "Tonal Balance Control 2", ",", "ValhallaFreqEcho", ",", "ValhallaSpaceModulator", ",", "ValhallaSupermassive", ",", "ValhallaVintageVerb", ",", "VU Meter (m)", ",", "VU Meter (s)", ",", "Youlean Loudness Meter 2", ",", "Digitalis", ",", "FabFilter Pro-Q 3", ",", "FogConvolver2", ",", "Melodyne", ",", "MF-108S", ",", "Nectar 3", ",", "Neutron 3 Compressor", ",", "Neutron 3 Equalizer", ",", "Neutron 3 Exciter", ",", "Neutron 3 Gate", ",", "Neutron 3 Sculptor", ",", "Neutron 3 Transient Shaper", ",", "Neutron 3 Visual Mixer", ",", "Neutron 3", ",", "OTT", ",", "Oxford Envolution", ",", "Ozone 9 Dynamic EQ", ",", "Ozone 9 Dynamics", ",", "Ozone 9 Equalizer", ",", "Ozone 9 Exciter", ",", "Ozone 9 Imager", ",", "Ozone 9 Low End Focus", ",", "Ozone 9 Master Rebalance", ",", "Ozone 9 Match EQ", ",", "Ozone 9 Maximizer", ",", "Ozone 9 Spectral Shaper", ",", "Ozone 9 Vintage Compressor", ",", "Ozone 9 Vintage EQ", ",", "Ozone 9 Vintage Limiter", ",", "Ozone 9 Vintage Tape", ",", "Ozone 9", ",", "PaulXStretch", ",", "plugdata-fx", ",", "plugdata", ",", "Pulsar Echorec", ",", "Relay", ",", "RX 7 Breath Control", ",", "SketchCassette II", ",", "Tonal Balance Control 2", ",", "ValhallaFreqEcho", ",", "ValhallaSpaceModulator", ",", "ValhallaSupermassive", ",", "ValhallaVintageVerb", ",", "WaveShell1-VST3 14.12", ",", "Youlean Loudness Meter 2", ",", "compass_6DoF", ",", "compass_binaural", ",", "compass_binauralVR", ",", "compass_decoder", ",", "compass_gravitator", ",", "compass_sidechain", ",", "compass_spatedit", ",", "compass_tracker", ",", "compass_upmixer", ",", "cropac_binaural", ",", "FabFilter Pro-Q 3", ",", "hades_renderer", ",", "hodirac_binaural", ",", "hodirac_decoder", ",", "hodirac_upmixer", ",", "HOSIRR", ",", "Nectar 3", ",", "Neutron 3 Compressor", ",", "Neutron 3 Equalizer", ",", "Neutron 3 Exciter", ",", "Neutron 3 Gate", ",", "Neutron 3 Sculptor", ",", "Neutron 3 Transient Shaper", ",", "Neutron 3 Visual Mixer", ",", "Neutron 3", ",", "OTT", ",", "Ozone 9 Dynamic EQ", ",", "Ozone 9 Dynamics", ",", "Ozone 9 Equalizer", ",", "Ozone 9 Exciter", ",", "Ozone 9 Imager", ",", "Ozone 9 Low End Focus", ",", "Ozone 9 Master Rebalance", ",", "Ozone 9 Match EQ", ",", "Ozone 9 Maximizer", ",", "Ozone 9 Spectral Shaper", ",", "Ozone 9 Vintage Compressor", ",", "Ozone 9 Vintage EQ", ",", "Ozone 9 Vintage Limiter", ",", "Ozone 9 Vintage Tape", ",", "Ozone 9", ",", "Relay", ",", "RX 7 Breath Control", ",", "SoundField By RODE", ",", "sparta_6DoFconv", ",", "sparta_ambiBIN", ",", "sparta_ambiDEC", ",", "sparta_ambiDRC", ",", "sparta_ambiENC", ",", "sparta_ambiRoomSim", ",", "sparta_array2sh", ",", "sparta_beamformer", ",", "sparta_binauraliser", ",", "sparta_binauraliser_nf", ",", "sparta_decorrelator", ",", "sparta_dirass", ",", "sparta_matrixconv", ",", "sparta_multiconv", ",", "sparta_panner", ",", "sparta_pitchShifter", ",", "sparta_powermap", ",", "sparta_rotator", ",", "sparta_sldoa", ",", "sparta_spreader", ",", "Tonal Balance Control 2", ",", "UltrasonicSuperHearing", ",", "ValhallaFreqEcho", ",", "ValhallaSpaceModulator", ",", "ValhallaSupermassive", ",", "ValhallaVintageVerb_x64", ",", "WaveShell1-VST 14.12", ",", "Youlean Loudness Meter 2" ],
+									"items" : "<choose plugin>",
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -2512,13 +2584,12 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-27",
-									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 606.0, 274.0, 50.0, 22.0 ],
-									"text" : "842.963753"
+									"text" : "1000."
 								}
 
 							}
@@ -3598,6 +3669,54 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-10",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 165.5, 213.0, 42.0, 22.0 ],
+									"text" : "r cue2"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-52",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 153.5, 185.0, 42.0, 22.0 ],
+									"text" : "r cue4"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-54",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "int" ],
+									"patching_rect" : [ 137.0, 251.0, 22.0, 22.0 ],
+									"text" : "t 0"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-55",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 137.0, 161.0, 48.0, 22.0 ],
+									"text" : "r STOP"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-64",
 									"maxclass" : "newobj",
 									"numinlets" : 2,
@@ -4296,6 +4415,13 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-54", 0 ],
+									"source" : [ "obj-10", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-4", 0 ],
 									"source" : [ "obj-11", 0 ]
 								}
@@ -4397,16 +4523,8 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-46", 0 ],
-									"order" : 1,
-									"source" : [ "obj-15", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-47", 0 ],
-									"order" : 2,
+									"order" : 1,
 									"source" : [ "obj-15", 0 ]
 								}
 
@@ -4727,6 +4845,27 @@
 									"destination" : [ "obj-65", 0 ],
 									"order" : 0,
 									"source" : [ "obj-50", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-54", 0 ],
+									"source" : [ "obj-52", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-46", 0 ],
+									"source" : [ "obj-54", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-54", 0 ],
+									"source" : [ "obj-55", 0 ]
 								}
 
 							}
@@ -5159,6 +5298,54 @@
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-4",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 109.5, 91.0, 42.0, 22.0 ],
+									"text" : "r cue4"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-30",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 76.0, 42.0, 42.0, 22.0 ],
+									"text" : "r cue2"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-31",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "int" ],
+									"patching_rect" : [ 82.0, 120.0, 22.0, 22.0 ],
+									"text" : "t 0"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-33",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 56.0, 18.0, 48.0, 22.0 ],
+									"text" : "r STOP"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-2",
 									"maxclass" : "message",
@@ -5763,16 +5950,8 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-46", 0 ],
-									"order" : 1,
-									"source" : [ "obj-15", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-7", 0 ],
-									"order" : 2,
+									"order" : 1,
 									"source" : [ "obj-15", 0 ]
 								}
 
@@ -5925,8 +6104,29 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-31", 0 ],
+									"source" : [ "obj-30", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-46", 0 ],
+									"source" : [ "obj-31", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-39", 0 ],
 									"source" : [ "obj-32", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-31", 0 ],
+									"source" : [ "obj-33", 0 ]
 								}
 
 							}
@@ -5987,6 +6187,13 @@
 								"patchline" : 								{
 									"destination" : [ "obj-43", 0 ],
 									"source" : [ "obj-39", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-31", 0 ],
+									"source" : [ "obj-4", 0 ]
 								}
 
 							}
@@ -6314,7 +6521,7 @@
 					"numinlets" : 1,
 					"numleds" : 20,
 					"numoutlets" : 1,
-					"offcolor" : [ 0.313725490196078, 0.313725490196078, 0.313725490196078, 1.0 ],
+					"offcolor" : [ 0.314, 0.314, 0.314, 1.0 ],
 					"oncolor" : [ 0.964705882352941, 0.094117647058824, 0.094117647058824, 1.0 ],
 					"outlettype" : [ "float" ],
 					"patching_rect" : [ 18.0, 202.0, 80.0, 13.0 ],
@@ -6383,6 +6590,18 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-3",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "int" ],
+									"patching_rect" : [ 398.0, 76.0, 33.0, 22.0 ],
+									"text" : "== 0"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-5",
 									"maxclass" : "newobj",
 									"numinlets" : 2,
@@ -6412,7 +6631,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 398.0, 82.0, 50.0, 22.0 ],
+									"patching_rect" : [ 398.0, 46.0, 50.0, 22.0 ],
 									"text" : "r micOn"
 								}
 
@@ -7201,8 +7420,15 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-4", 0 ],
+									"destination" : [ "obj-3", 0 ],
 									"source" : [ "obj-2", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"source" : [ "obj-3", 0 ]
 								}
 
 							}
@@ -8492,6 +8718,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-40", 0 ],
+					"order" : 1,
+					"source" : [ "obj-28", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-86", 0 ],
+					"order" : 0,
 					"source" : [ "obj-28", 0 ]
 				}
 
@@ -8700,6 +8935,66 @@
 				"patchline" : 				{
 					"destination" : [ "obj-83", 0 ],
 					"source" : [ "obj-84", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-89", 0 ],
+					"order" : 1,
+					"source" : [ "obj-86", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-91", 0 ],
+					"order" : 1,
+					"source" : [ "obj-86", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-95", 0 ],
+					"order" : 0,
+					"source" : [ "obj-86", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-96", 0 ],
+					"order" : 0,
+					"source" : [ "obj-86", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-28", 0 ],
+					"source" : [ "obj-89", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-28", 0 ],
+					"source" : [ "obj-91", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-29", 0 ],
+					"source" : [ "obj-95", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-29", 0 ],
+					"source" : [ "obj-96", 0 ]
 				}
 
 			}
